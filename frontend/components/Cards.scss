@@ -1,0 +1,32 @@
+@import "../theme/theme";
+
+.ContainerHome {
+    width: 80%;
+    display: block;
+
+    h1 {
+      color: $primary-blue;
+    }
+    
+    .Cards {
+        display: flex;
+    }
+
+    .Card {
+        text-align: left;
+        width: 50%;
+        margin: 10px;
+        padding: 5px;
+        background-color: white;
+
+        img {
+            width: 5%;
+            vertical-align: middle;
+            margin-right: 25px;
+        }
+
+        ul {
+            list-style: none;
+        }
+    }
+}

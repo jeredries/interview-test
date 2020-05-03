@@ -1,0 +1,25 @@
+@import "../theme/theme";
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+tr {
+    margin-top: 20px;
+}
+
+td {
+    margin-right: 30px;
+}
+
+.TdDate {
+    font-size: 20px;
+    color: $on-primary-light
+}
+
+.TdMonth {
+    color: $on-primary-light
+}

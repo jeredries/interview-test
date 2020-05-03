@@ -1,0 +1,63 @@
+.Login-form{
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    color: #788997;
+    width: 500px;
+    text-align: center;
+
+    .Logo {
+        margin: auto;
+        width: 40%;
+    }
+
+    .Group {
+        align-items: baseline;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        position: relative;
+        margin: .5rem 0;
+
+        label {
+            margin-bottom: 25px;     
+
+            input {
+                padding: 20px 10px;
+                border-left: 0;
+                border-right: 0;
+                border-top: 0;
+            }
+
+            input:focus {
+                border-left: 0;
+                border-right: 0;
+                border-top: 0;
+            }
+
+            input:focus-within + label {
+            display: none;
+            }
+        }
+    }
+
+    button{
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+        color: #788997;
+        background-color: white;
+        border: 1.5px solid #C4CCD2;
+        border-radius: 20px;
+        margin-top: 10px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .Submit {
+        background-color: #d7dbdd;
+        color: white;
+    }
+}
